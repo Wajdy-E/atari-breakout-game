@@ -3,8 +3,13 @@ body{
   justify-content: center;
   align-items: center;
   height: 100vh;
+  position: relative;
 }
-
+body + h2{
+  position: absolute;
+  max-width: 500px;
+  top: 100px;
+}
 .grid {
   position: absolute;
   width: 560px;
